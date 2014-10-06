@@ -1,3 +1,9 @@
+.box {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 200px;
+}
+
 h1 {
 	font-family: 'Luckiest Guy', cursive;
 	font-size: 4em;
@@ -17,18 +23,18 @@ h1 {
 	margin: 0;
 }
 
-.left {
+.zero, .three, .six {
 	border-right: 5px solid black;
 }
 
-.right {
+.two, .five, .eight {
 	border-left: 5px solid black;
 }
 
-.top {
+.zero, .one, .two {
 	border-bottom: 5px solid black;
 }
 
-.bottom {
+.six, .seven, .eight {
 	border-top: 5px solid black;
 }
